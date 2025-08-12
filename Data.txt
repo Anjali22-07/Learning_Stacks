@@ -1,0 +1,24 @@
+## Array Implementation over Linked List
+
+Advantage:
+
+-- size  : for every element we take one block of space. Whereas in LinkedList we take two block one for the data and other for the address
+-- display -- o(1)
+
+Disadvantage: 
+
+-- size --> fixed --> overflow
+
+
+LinkedList over Array 
+
+Advantage: 
+
+ size-->> unlimited
+
+ Disadvantage: 
+
+  size--> takes two blocks each element
+
+  display in reverse which makes the space complexity o(N);
+

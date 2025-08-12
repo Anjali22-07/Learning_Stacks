@@ -43,6 +43,7 @@ public class MoveStackInSameOrder {
         }
 
         System.out.println(gt);
+        sc.close();
     }
     
 }
