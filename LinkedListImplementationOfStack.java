@@ -15,8 +15,8 @@ public class LinkedListImplementationOfStack {
 
         void push(int x){
             Node temp = new Node(x);
-            temp.next=head;
-            head=temp;
+            temp.next=head;     //the next of the new node (temp) point to the current head of the linked list.
+            head=temp;          //the head pointer of the linked list to point to the new node (temp).
             size++;
         }
 
